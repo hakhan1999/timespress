@@ -24,7 +24,7 @@ const Header = () => {
               </div>
               <p className="text">{data.email}</p>
             </a>
-            <a href="mailto:contacts@timespresspk.com">
+            <a href="tel:+(92-21) 34932931-3">
               <div className="icon">
                 <img src="src/assets/phone.svg" alt="Phone" />
               </div>

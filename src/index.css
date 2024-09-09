@@ -101,3 +101,13 @@ li {
 .navbar .wrapper ul li:nth-child(1) {
     background: #51b948;
 }
+
+/* Slider  */
+
+.hero-slider .slide img{
+  width: 100%;
+}
+
+.hero-slider .slick-track{
+  display: flex;
+}

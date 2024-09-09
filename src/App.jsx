@@ -1,14 +1,19 @@
 import React from "react";
-import { Header } from "./index";
+import { Header, HeroSlider } from "./index";
 import { LocaleProvider } from "./context/LocaleContext";
 
 const App = () => {
   return (
-    <div className="container">
+    <>
+      <div className="container">
+        <LocaleProvider>
+          <Header />
+        </LocaleProvider>
+      </div>
       <LocaleProvider>
-        <Header />
+        <HeroSlider />
       </LocaleProvider>
-    </div>
+    </>
   );
 };
 
