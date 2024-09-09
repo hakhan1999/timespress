@@ -24,3 +24,80 @@ html {
     font-size: 4.102564103vw;
   }
 }
+
+a,
+li {
+  all: unset;
+  cursor: pointer;
+}
+
+.container {
+  padding: 0 5rem;
+}
+
+.header {
+  padding: 2rem 0;
+}
+
+.header .col-1 {
+  width: 20%;
+}
+
+.header .col-1 .logo {
+  width: 100%;
+}
+
+.header .col-1 .logo img {
+  width: 100%;
+}
+
+.header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .wrapper .col-2 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3rem;
+}
+
+.header .contact-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header .contact-links .icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.header .contact-links .icon img {
+  width: 100%;
+}
+
+.header .contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar .wrapper ul {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar .wrapper ul li {
+  padding: 0.5rem 0.8rem;
+    background: #808080;
+    color: #fff;
+}
+
+.navbar .wrapper ul li:nth-child(1) {
+    background: #51b948;
+}

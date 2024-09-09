@@ -1,10 +1,13 @@
 import React from "react";
 import { Header } from "./index";
+import { LocaleProvider } from "./context/LocaleContext";
 
 const App = () => {
   return (
     <div className="container">
-      <Header />
+      <LocaleProvider>
+        <Header />
+      </LocaleProvider>
     </div>
   );
 };
