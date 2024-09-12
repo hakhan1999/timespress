@@ -178,3 +178,33 @@ p.para {
   margin-top: 1.5rem;
   border-radius: 2rem;
 }
+
+.global-btn-div {
+  justify-content: center;
+  display: flex;
+}
+
+/* Clients Section  */
+
+.clients {
+  padding: 5rem 0;
+  background: #ededed;
+}
+
+.logo-clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1rem;
+  margin: 1rem 0;
+}
+
+.logo-clients img {
+  width: 19%;
+}
+
+.heading-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

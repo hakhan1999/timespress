@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, HeroSlider, Introduction } from "./index";
+import { Clients, Header, HeroSlider, Introduction } from "./index";
 import { LocaleProvider } from "./context/LocaleContext";
 
 const App = () => {
@@ -9,6 +9,7 @@ const App = () => {
         <Header />
         <HeroSlider />
         <Introduction />
+        <Clients />
       </LocaleProvider>
     </>
   );
