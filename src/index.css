@@ -32,11 +32,11 @@ li {
 }
 
 .container {
-  padding: 0 5rem;
+  padding: 0 15rem;
 }
 
 .header {
-  padding: 2rem 0;
+  padding: 2rem 5rem;
 }
 
 .header .col-1 {
@@ -117,16 +117,64 @@ li {
   font-size: 5rem;
 }
 
-.hero-slider .slick-next, .hero-slider .slick-prev{
+.hero-slider .slick-next,
+.hero-slider .slick-prev {
   width: 5rem;
   height: 5rem;
   z-index: 2;
 }
 
-.hero-slider .slick-next{
+.hero-slider .slick-next {
   right: 0;
 }
 
-.hero-slider .slick-prev{
+.hero-slider .slick-prev {
   left: 0;
+}
+
+/* Introduction Section  */
+
+.introduction {
+  padding: 5rem 0;
+}
+
+.introduction .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+h2.green-subheading {
+  color: #3dc35a;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+h2.main-heading {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+p.para {
+  font-size: 1.125rem;
+  color: #aaabae;
+}
+
+.para-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.global-btn {
+  background: #3dc35a;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  width: fit-content;
+  margin-top: 1.5rem;
+  border-radius: 2rem;
 }
