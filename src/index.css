@@ -94,20 +94,39 @@ li {
 
 .navbar .wrapper ul li {
   padding: 0.5rem 0.8rem;
-    background: #808080;
-    color: #fff;
+  background: #808080;
+  color: #fff;
 }
 
 .navbar .wrapper ul li:nth-child(1) {
-    background: #51b948;
+  background: #51b948;
 }
 
 /* Slider  */
 
-.hero-slider .slide img{
+.hero-slider .slide img {
   width: 100%;
 }
 
-.hero-slider .slick-track{
+.hero-slider .slick-track {
   display: flex;
+}
+
+.hero-slider .slick-prev:before,
+.hero-slider .slick-next:before {
+  font-size: 5rem;
+}
+
+.hero-slider .slick-next, .hero-slider .slick-prev{
+  width: 5rem;
+  height: 5rem;
+  z-index: 2;
+}
+
+.hero-slider .slick-next{
+  right: 0;
+}
+
+.hero-slider .slick-prev{
+  left: 0;
 }
